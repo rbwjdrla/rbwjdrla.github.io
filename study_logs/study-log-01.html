@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공부 기록 1: HTML 기초 다지기</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* 이 페이지에만 적용하고 싶은 추가 스타일이 있다면 여기에 작성하세요. */
+        /* 예: 코드 블록 스타일 */
+        pre {
+            background-color: #e8e8e8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto; /* 내용이 길면 스크롤바 생성 */
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+        }
+        code {
+            background-color: #dcdcdc;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">RBWJDRLA의 공부 기록</a></h1>
+        <nav>
+            <a href="../index.html">홈</a> |
+            <a href="../study-logs.html">공부 기록</a> |
+            <a href="../about.html">소개</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>HTML 기초 다지기: 웹 페이지의 뼈대</h2>
+            <p class="post-info">작성일: 2025년 6월 11일</p>
+
+            <h3>1. HTML이란 무엇인가?</h3>
+            <p>HTML (HyperText Markup Language)은 웹 페이지의 구조를 정의하는 마크업 언어입니다. 우리가 보는 모든 웹 페이지는 HTML로 이루어져 있습니다.</p>
+            <p>텍스트, 이미지, 링크 등 다양한 요소를 웹 페이지에 배치하고 구조화하는 역할을 합니다.</p>
+
+            <h3>2. 기본 문서 구조</h3>
+            <p>모든 HTML 문서는 다음과 같은 기본 구조를 가집니다.</p>
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ko"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;페이지 제목&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- 여기에 콘텐츠를 작성합니다 --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+            <ul>
+                <li><code>&lt;!DOCTYPE html&gt;</code>: 문서 유형을 HTML5로 선언합니다.</li>
+                <li><code>&lt;html&gt;</code>: HTML 문서의 시작과 끝을 나타냅니다. `lang="ko"`는 한국어 문서임을 의미합니다.</li>
+                <li><code>&lt;head&gt;</code>: 웹 페이지의 메타데이터(문서 정보)를 포함합니다. 사용자에게 직접 보이지 않습니다.</li>
+                <li><code>&lt;body&gt;</code>: 웹 페이지의 실제 내용(콘텐츠)이 들어가는 부분입니다. 사용자에게 보이는 모든 요소가 여기에 작성됩니다.</li>
+            </ul>
+
+            <h3>3. 자주 사용하는 HTML 태그</h3>
+            <p>가장 기본적이고 자주 사용되는 태그 몇 가지를 정리해 보았습니다.</p>
+            <ul>
+                <li><code>&lt;h1&gt;</code> ~ <code>&lt;h6&gt;</code>: 제목 태그 (숫자가 작을수록 중요한 제목)</li>
+                <li><code>&lt;p&gt;</code>: 단락 (Paragraph) 태그</li>
+                <li><code>&lt;a href="링크 주소"&gt;</code>: 하이퍼링크 (Anchor) 태그</li>
+                <li><code>&lt;img src="이미지 경로" alt="이미지 설명"&gt;</code>: 이미지 태그</li>
+                <li><code>&lt;ul&gt;</code> / <code>&lt;ol&gt;</code> / <code>&lt;li&gt;</code>: 순서 없는 목록 / 순서 있는 목록 / 목록 아이템</li>
+                <li><code>&lt;div&gt;</code>: 의미 없는 일반적인 컨테이너 (레이아웃 구성에 자주 사용)</li>
+                <li><code>&lt;span&gt;</code>: 의미 없는 인라인 컨테이너 (텍스트 일부에 스타일 적용)</li>
+            </ul>
+            <p>더 많은 태그와 속성은 <a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element">MDN Web Docs</a>를 참고하세요.</p>
+
+            <h4>사진도 추가해 볼까요?</h4>
+            <p>이미지를 `images` 폴더에 넣고 다음과 같이 사용할 수 있습니다.</p>
+            <img src="../images/sample-image.jpg" alt="HTML 예시 이미지" style="max-width:100%; height:auto; display:block; margin: 20px auto;">
+            <p style="text-align: center; font-size: 0.9em; color: #666;">(사진은 예시입니다. 실제 이미지를 images 폴더에 넣으세요!)</p>
+
+            <p>다음 기록에서는 CSS에 대해 더 자세히 알아보겠습니다.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 RBWJDRLA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
