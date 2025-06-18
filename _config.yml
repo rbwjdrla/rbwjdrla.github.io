@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : "kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  bio              : "hello"
   location         : "Somewhere"
   email            :
   links:
