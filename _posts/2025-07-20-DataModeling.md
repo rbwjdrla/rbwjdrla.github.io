@@ -6,6 +6,7 @@ categories:
   - Database
   - Sql
 ---
+{: .text-center}
 1. 개요 및 목표
 SQLD 자격증 취득을 위한 데이터 모델링의 기본 개념, 특징, 그리고 유의사항을 체계적으로 학습할 수 있도록 구성.
 
