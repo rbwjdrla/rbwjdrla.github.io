@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Spring 프레임워크: 이해와 활용"
 date: 2025-07-30
 categories: [Java, Spring, Framework]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "03.데이터베이스 모델링"
 date: 2025-07-30
 categories: [Database, Data Modeling]
