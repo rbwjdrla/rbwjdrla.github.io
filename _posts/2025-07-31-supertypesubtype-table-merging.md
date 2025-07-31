@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "06.SQLD 슈퍼타입/서브타입 관계 테이블 병합 완벽 정리"
+title: "06.SQLD 슈퍼타입/서브타입 관계 테이블 병합"
 date: 2025-07-31
 categories: [Database, Sql]
 ---
