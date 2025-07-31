@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "01.데이터 모델링"
 date: 2025-07-20
 categories:
