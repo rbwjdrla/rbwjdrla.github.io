@@ -1,8 +1,8 @@
 ---
-title: "SQLD NULL 값 연산: 단일행 vs 다중행 처리 완벽 가이드"
+title: "SQLD NULL 값과 연산"
 date: 2025-08-01
 categories: [Database, SQL]
-tags: [sql, sqld, null, database, "단일행 연산", "다중행 연산"]
+tags: [sql, sqld, null]
 ---
 
 # SQLD NULL 값과 연산
