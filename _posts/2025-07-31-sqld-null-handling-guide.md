@@ -1,6 +1,6 @@
 ---
 title: "SQLD NULL 값과 연산"
-date: 2025-08-01
+date: 2025-07-31
 categories: [Database, SQL]
 tags: [sql, sqld]
 ---
