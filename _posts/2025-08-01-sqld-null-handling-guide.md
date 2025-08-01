@@ -2,7 +2,7 @@
 title: "SQLD NULL 값과 연산"
 date: 2025-08-01
 categories: [Database, SQL]
-tags: [sql, sqld, null]
+tags: [sql, sqld]
 ---
 
 # SQLD NULL 값과 연산
