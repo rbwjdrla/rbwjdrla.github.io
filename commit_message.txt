@@ -1,1 +1,1 @@
-fix: correct post date to follow convention
+docs: 08.SQLD 본질 식별자와 인조 식별자 추가
