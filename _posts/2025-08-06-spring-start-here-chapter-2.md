@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Start Here - Chapter 2: The Spring Context: Defining Beans"
+title: "Spring Start Here - Chapter 2: 스프링 컨텍스트 & Bean 정의"
 date: 2025-08-06
 categories: [Spring, Java]
 tags: [spring, java, context, bean]
